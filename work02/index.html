@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>work02</title>
+<style type="text/css">
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url(images/pattern.png);
+}
+#header{
+    margin: 20px 0;
+    border-bottom: 5px solid red;
+}
+#inner-header{
+    width: 780px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #FFF0F5;
+}
+.note{
+    width: 120px;
+    float: right;
+}
+.member{
+    width: 80px;
+    margin: 10px 10px;
+    padding: 5px;
+    background-color: #228B22;
+    text-align: center;
+    font-size: 0.7em;
+    color: #fff;
+}
+.contact{
+    width: 80px;
+    margin: 10px 10px;
+    padding: 5px;
+    background-color: #228B22;
+    text-align: center;
+    font-size: 0.7em;
+    color: #fff;
+}
+#container{
+    width: 780px;
+    margin: 20px auto;
+    background-color: #FFF0F5;
+}
+#key-image{
+    width: 780px;
+    height: 200px;
+    background-color: orange;
+    text-align: center;
+    line-height: 100px;
+    font-size: 40px;
+}
+#menu{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+#menu li{
+    width: 120px;
+    height: 40px;
+    list-style: none;
+    background-color: #4169E1;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+}
+#inner-box{
+    overflow: hidden;
+}
+#main{
+    width: 500px;
+    float: left;
+}
+#sidebar{
+    float: left;
+    width: 260px;
+    margin-left: 20px;
+}
+#main-image{
+    width: 500px;
+    height: 200px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    font-size: 50px;
+}
+#main-title{
+    margin: 20px 0;
+    padding: 20px 20px;
+    background-color: white;
+    
+}
+.item-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item-box{
+    margin-bottom: 20px;
+}
+.item-image{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    text-align: center;
+    line-height: 100px;
+    font-size: 1.2em;
+    color: #fff;
+}
+.item-title{
+    padding: 10px 0;
+    text-align: center;
+    background-color: pink;
+}
+#ad{
+    width: 260px;
+    height: 260px;
+    margin-bottom: 20px;
+    background-color: #ff0000;
+    text-align: center;
+    line-height: 130px;
+    font-size: 30px;
+    color: white;
+}
+.rank-box{
+    margin-bottom:20px;
+    background-color: #fff;
+    overflow:hidden;
+}
+.rank-title{
+    width: 30px;
+    height: 30px;
+    background-color: gold;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+.rank-text{
+    padding: 5px;
+}
+.rank-image{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    background-color: #DA70D6;
+    line-height: 80px;
+    text-align: center;
+    color: #fff;
+    float: left;
+}
+.rank-contents{
+    width: 120px;
+    padding: 5px;
+    font-size: 0.8em;
+    float: left;
+}
+#footer{
+    background-color: black;
+}
+#inner-footer{
+    width: 780px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: orange;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 0.8em;
+}
+</style>
+</head>
+<body>
+    <div id="header">
+        <div id="inner-header">
+            <img src="images/logo.png">
+            <div class="note">
+                <div class="member">会員登録</div>
+                <div class="contact">お問い合わせ</div>
+            </div>
+        </div>
+    </div>
+    <div id="container">
+        <div id="key-image">
+            <img src="images/key_image.png">
+        </div>
+        <ul id="menu">
+            <li>ニュース</li>
+            <li>スポーツ</li>
+            <li>芸能</li>
+            <li>グルメ</li>
+            <li>トレンド</li>
+        </ul>
+        <div id="inner-box">
+            <div id="main">
+                <div id="main-image">
+                    <img src="images/main_image.png">
+                </div>
+                <div id="main-title">
+                    これはメインタイトルです。これはメインタイトルです。
+                    これはメインタイトルです。これはメインタイトルです。
+                </div>
+                <div class="item-container">
+                    <div class="item-box">
+                        <div class="item-image">
+                            <img src="images/item_image.png">
+                        </div>
+                        <div class="item-title">記事のタイトル</div>
+                    </div>
+                    <div class="item-box">
+                        <div class="item-image">
+                            <img src="images/item_image.png">
+                        </div>
+                        <div class="item-title">記事のタイトル</div>
+                    </div>
+                    <div class="item-box">
+                        <div class="item-image">
+                            <img src="images/item_image.png">
+                        </div>
+                        <div class="item-title">記事のタイトル</div>
+                    </div>
+                    <div class="item-box">
+                        <div class="item-image">
+                            <img src="images/item_image.png">
+                        </div>
+                        <div class="item-title">記事のタイトル</div>
+                    </div>
+                </div>
+            </div>
+            <div id="sidebar">
+                <div id="ad">
+                    <img src="images/side_image.png">
+                </div>
+                <div class="rank-box">
+                    <div class="rank-title"><span class="rank-text">1</span></div>
+                    <div class="rank-image">
+                        <img src="images/thumnail_image.png">
+                    </div>
+                    <div class="rank-contents">
+                        記事の紹介です。記事の紹介です。記事の紹介です。
+                    </div>
+                </div>
+                <div class="rank-box">
+                    <div class="rank-title"><span class="rank-text">2</span></div>
+                    <div class="rank-image">
+                        <img src="images/thumnail_image.png">
+                    </div>
+                    <div class="rank-contents">
+                        記事の紹介です。記事の紹介です。記事の紹介です。
+                    </div>
+                </div>
+                <div class="rank-box">
+                    <div class="rank-title"><span class="rank-text">3</span></div>
+                    <div class="rank-image">
+                        <img src="images/thumnail_image.png">
+                    </div>
+                    <div class="rank-contents">
+                        記事の紹介です。記事の紹介です。記事の紹介です。
+                    </div>
+                </div>
+                <div class="rank-box">
+                    <div class="rank-title"><span class="rank-text">4</span></div>
+                    <div class="rank-image">
+                        <img src="images/thumnail_image.png">
+                    </div>
+                    <div class="rank-contents">
+                        記事の紹介です。記事の紹介です。記事の紹介です。
+                    </div>
+                </div>
+                <div class="rank-box">
+                    <div class="rank-title"><span class="rank-text">5</span></div>
+                    <div class="rank-image">
+                        <img src="images/thumnail_image.png">
+                    </div>
+                    <div class="rank-contents">
+                        記事の紹介です。記事の紹介です。記事の紹介です。
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="inner-footer">
+            （C)ニュースドットコム
+        </div>
+    </div>
+</body>
+</html>
